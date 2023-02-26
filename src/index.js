@@ -4,7 +4,7 @@ dotenv.config();
 const fs = require("fs");
 const path = require("path");
 
-const { Client, Events, IntentsBitField, Collection } = require("discord.js");
+const { Client, Events, IntentsBitField, Collection, ActivityType } = require("discord.js");
 const intents = new IntentsBitField(3276799);
 const client = new Client({ intents });
 
